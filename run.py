@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Usage: python3 experiment.py <dataset-name>
-Example: python3 experiment.py sift-128-euclidean
+Usage: python3 run.py <dataset-name>
+Example: python3 run.py sift-128-euclidean
 """
 
 import sys
@@ -480,5 +480,6 @@ if SCANN_AVAILABLE:
 if GLASS_AVAILABLE:
     print_best_results("GLASS", glass_results, build_time_glass)
 print_best_results("LoRANN", lorann_results, build_time_lorann)
+
 
 print("="*80)
