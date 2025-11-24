@@ -38,7 +38,9 @@ mnist-784-euclidean
 coco-i2i-512-angular
 coco-t2i-512-angular
 ```
-Please note that LoRANN only supports L2 or Inner Product distances. Although datasets: MovieLens-10M and Kosarak, can be used as an argument, they are not supported by LoRANN (and also Faiss) since they use Jaccard. In addition, LoRANN also requires the datasets to be at least 64 in dimension, so GloVe-25 and GloVe-50 cannot be used.<br />
-<br />
 The datasets are from the ANN Benchmarks repo:<br />
 https://github.com/erikbern/ann-benchmarks
+<br />
+Please note that LoRANN only supports L2 or Inner Product distances. Although 2 of the datasets from the ANN Benchmarks repo: MovieLens-10M and Kosarak, can be used in the program, they are not supported by LoRANN (and also Faiss) since they use Jaccard. The results produced by the program using these 2 datasets will not be accurate. In addition, LoRANN also requires the datasets to be at least 64 in dimension, so GloVe-25 and GloVe-50 from the ANN Benchmarks repo cannot be used.<br />
+
+
