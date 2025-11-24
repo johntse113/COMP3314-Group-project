@@ -17,11 +17,11 @@ https://github.com/ejaasaari/lorann<br />
 # How to run
 Run the code directly using Python, and add one of the available dataset names as an argument.<br />
 ```
-python3 main.py <dataset>
+python3 run.py <dataset>
 ```
 e.g. <br />
 ```
-python3 main.py sift-128-euclidean
+python3 run.py sift-128-euclidean
 ```
 
 All available dataset names:<br />
